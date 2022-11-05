@@ -1,0 +1,313 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: 'Open Sans', Arial, helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #f2f2f2;
+	overflow-x: hidden;
+}
+/*navegacao*/
+#nav-bar 
+{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+	background: #a6c9cf; /*#ceefca;*/
+}
+.navbar
+{
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	width: 80%;
+	padding-left: 120px;
+	opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #434b56 !important; /*#979797*/
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+#nomesite
+{
+	color: #434b56 !important;
+	font-weight: 400;
+	float: left;
+	text-decoration: none;
+}
+.fa-bars
+{
+	color: #545454;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+/*banner*/
+#banner img
+{
+	width: 100%;
+}
+/*Whatsapp flutuante*/
+.whatsapp-button {
+	position: fixed;
+	z-index: 100;
+	right: 15px; 
+	top: 70px;	
+}
+.main-btn {
+	background-color: #a6c9cf;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 200px;
+	height: 60px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border: 3px solid #fff;
+}
+.btn-wrap{
+    position:relative;
+    text-align:center;
+    margin: -75px;
+}
+.btn-wrap button{
+    position:absolute;
+    z-index:1;
+    top:50%;
+    left:50%;              /* altura para o botão */
+    padding:0;
+    margin:-15px 0 0 -100px;   /* margem à esquerda e ao topo */
+    border:0 none;
+    background-color: transparent;
+}
+.barradecor
+{
+	background-color: #f8cfb8;
+	width: 100%;
+	height: 40px;
+}
+
+/*sobre*/
+#sobre
+{
+	background: 545454;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-bottom: 100px;
+	color: #e49f78;
+}
+#sobre h1
+{
+	font-size: 40px;
+}
+#sobre img
+{
+	width: 412px;
+	/*height: 350px;*/
+}
+/*consulta*/
+#consulta
+{
+	background-color: #80a5ab; /*#a6c9cf;*/
+	color: #ffffff;
+	padding: 0 50px 100px 50px;
+}
+#consulta h2
+{
+	color: #ffffff;
+	padding: 100px 0 20px 0;
+	font-size: 40px;
+}
+#consulta h4
+{
+	padding: 20px 0 50px 0;
+	line-height: 200%;
+}
+#consulta ul
+{
+	font-size: 24px;
+	padding: 0 50px 0 50px;
+	line-height: 200%;
+}
+#consulta .btn-wrap
+{
+	padding-top: 300px;
+}
+/*pergunta*/
+#pergunta
+{
+	background-color: #80a5ab;
+}
+#pergunta h3
+{
+	padding: 100px 0 100px 0;
+	font-size: 40px;
+	background-color: #80a5ab;
+	color: #ffffff;
+}
+#pergunta ul
+{
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 250%;
+	padding: 0 50px 100px 50px;
+	background-color: #80a5ab;
+	color: #ffffff;
+}
+#pergunta a
+{
+	background-color: #80a5ab;
+	color: #ffffff;
+}
+/*depoimento*/
+#depoimentos
+{
+	background-color: #fddac6; /*#f8cfb8;*/
+}
+#depoimentos h3
+{
+	background-color: #fddac6; /*#f8cfb8;*/
+	color: #e49f78;
+	padding: 100px 0 50px 0;
+	font-size: 40px;
+}
+#depoimentos img
+{
+	padding: -20px;
+	margin: 0 30px;
+	border-radius: 100%;
+	border: 10px solid #e49f78;
+
+}
+#depoimentos p
+{
+	font-style: italic;
+	padding: 40px;
+	color: #545454;
+	font-size: 16px;
+}
+
+/*horario*/
+#horarios h3
+{
+	font-size: 40px;
+	color: #80a5ab;
+	padding: 100px 0 30px 0;
+}
+#horarios p
+{
+	font-size: 20px;
+	color: #80a5ab;
+}
+#horarios .btn-wrap
+{
+	padding-top: 300px;
+}
+/*contato*/
+#contato
+{
+	background-color: #a6c9cf;
+	color: #ffffff;
+	padding: 0 50px 50px 50px;
+}
+#contato h4
+{
+	padding-top: 50px;
+}
+#contato h3
+{
+	font-size: 40px;
+	padding-top: 70px;
+}
+#contato p
+{
+	font-size: 20px;
+	margin: 20px 0 30px 0;
+}
+#contato a 
+{
+	font-size: 20px;
+
+}
+
+iframe
+{
+	width: 200px;
+}
+#myBtn {
+  display: none; /* Hidden by default  */
+  position: fixed; /* Fixed/sticky position  */
+  bottom: 20px; /* Place the button at the bottom of the page  */
+  right: 30px; /* Place the button 30px from the right */ 
+  z-index: 99; /* Make sure it does not overlap  */
+  border: none; /* Remove borders  */
+  outline: none; /* Remove outline  */
+  background-image: linear-gradient(to right, #8c8c8c,#595959); /* Set a background color  */
+  color: white; /* Text color  */
+  cursor: pointer; /* Add a mouse pointer on hover  */
+  padding: 15px; /* Some padding  */
+  border-radius: 70px; /* Rounded corners  */
+  font-size: 18px; /* Increase font size  */
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+@media (max-width: 576px) {
+	.barradecor {
+		background-color: #f8cfb8;
+		height: 25px;
+	}
+	#banner img
+	{
+	width: 735px;
+	height: auto;
+	margin-top: 40px;
+
+	}
+	#sobre img
+	{
+		width: 70%;
+	}
+	#sobre p
+	{
+		margin: 0 30px 10px 30px;
+	}
+	#depoimentos img
+	{
+		margin: 0 0px 40px 80px;
+	}
+	#depoimentos p
+	{
+		margin: 0 30px 10px 30px;
+	}
+}
+
+
+
+/*---------------------------------------
+
+@media (min-width: 576px) {
+
+	#banner img
+{
+	background-image: url("img/banner-principal.jpg");
+	background-size: cover;
+}
+}
